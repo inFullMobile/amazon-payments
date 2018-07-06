@@ -1,5 +1,5 @@
 const { Config } = require('./lib/config');
-const Amazon = require('./lib/amazon').amazon;
+const { Amazon } = require('./lib/amazon');
 const Environment = require('./lib/environment');
 
 function connect(opts) {
