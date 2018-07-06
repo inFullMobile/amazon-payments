@@ -6,5 +6,7 @@ function connect(opts) {
   return new Amazon(new Config(opts));
 }
 
-exports.connect = connect;
-exports.Environment = Environment;
+module.exports = {
+  connect,
+  Environment,
+};
